@@ -1,4 +1,4 @@
-package Basics_of_software_code;
+package Basics_of_software_code.lineprogramm;
 
 public class Task2 {
     public static void main(String[] args) {
