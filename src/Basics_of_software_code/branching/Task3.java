@@ -5,7 +5,7 @@ public class Task3 {
         Task3 solution = new Task3();
         Point pointA = solution.new Point(4,6);
         Point pointB = solution.new Point(6,9);
-        Point pointC = solution. new Point(3,10);
+        Point pointC = solution.new Point(3,10);
 
         if (pointToLine(pointA.x, pointA.y, pointB.x, pointB.y, pointC.x, pointC.y)) {
             System.out.println("Точки лежат на одной прямой");
