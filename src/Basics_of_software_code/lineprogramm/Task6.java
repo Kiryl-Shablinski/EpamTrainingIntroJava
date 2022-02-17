@@ -11,17 +11,16 @@ public class Task6 {
     static int maxY2 = 4;
 
     public static void main(String[] args) {
-        System.out.println(printTrueOrFalse(-3,7));
+        System.out.println(printTrueOrFalse(-2, 2));
     }
 
     public static boolean printTrueOrFalse (int x, int y){
-        boolean isXDownFigure, isXUpFigure, isYDownFigure, isYUpFigure, isDownFigure, isUpFigure;
-        isXDownFigure = x >= minX1 && x <= maxX1;
-        isYDownFigure = y >= minY1 && y <= maxY1;
-        isXUpFigure = x >= minX2 && x <= maxX2;
-        isYUpFigure = y >= minY2 && y <= maxY2;
-        isDownFigure = isXDownFigure == isYDownFigure;
-        isUpFigure = isXUpFigure == isYUpFigure;
+        boolean  isDownFigure, isUpFigure;
+       // принадлежность точки нижней фигуре
+        isDownFigure = x >= minX1 && x <= maxX1 && y >= minY1 && y <= maxY1;
+        // принадлежность точки верхней фигуре
+        isUpFigure = x >= minX2 && x <= maxX2 && y >= minY2 && y <= maxY2;
+
         return isDownFigure || isUpFigure;
     }
 }
