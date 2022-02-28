@@ -7,7 +7,7 @@ public class Task6 {
 
     public static void printSymbol(){
         //существует тип  char, который служит для хранения символов
-        for (int i = 0; i < Character.MAX_VALUE; i++){
+        for (int i = Character.MIN_VALUE; i < Character.MAX_VALUE; i++){
 
             System.out.printf("%s %d \n",  (char) i, i);
         }
