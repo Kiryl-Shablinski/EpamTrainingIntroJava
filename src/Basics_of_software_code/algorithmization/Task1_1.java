@@ -1,6 +1,6 @@
 package Basics_of_software_code.algorithmization;
 
-public class Task1 {
+public class Task1_1 {
     public static void main(String[] args) {
         int[] arr = new int[] {1,6,4,8,2,9};
         int k = 6;
